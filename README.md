@@ -831,3 +831,16 @@ Possible future improvements include:
 - Detection rule simulation
 - External threat intelligence integrations
 - Enhanced monitoring and observability
+
+## Author
+
+**Sai Sreekari Kudaka**
+
+Computer Science student with an interest in Cybersecurity.
+
+- GitHub: https://github.com/SaiSreekari-Kudaka
+- Project Repository: https://github.com/SaiSreekari-Kudaka/mini-siem-dashboard
+
+---
+
+This project was developed as a portfolio and learning project to demonstrate practical skills in full-stack development, cybersecurity concepts, log analysis, authentication, role-based access control, and security monitoring workflows.
