@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #08110d;
+  color: #f3f6f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(47, 94, 69, 0.14), transparent 28%),
+    linear-gradient(180deg, #08110d 0%, #09140f 55%, #07100c 100%);
+  color: #f3f6f2;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #264436;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1914;
+}
+
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-forest-400/45 focus:ring-offset-2 focus:ring-offset-surface-base;
+}
