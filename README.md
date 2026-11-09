@@ -1,4 +1,4 @@
-# Mini SIEM Dashboard
+# Mini SIEM Dashboard 
 
 A full-stack Security Information and Event Management (SIEM) application that demonstrates core Security Operations Center (SOC) workflows, including log ingestion, event normalization, detection rules, alert generation, threat intelligence management, and security monitoring.
 
